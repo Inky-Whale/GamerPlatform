@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             
-            Gamer gamer = new Gamer(){IdNumber = 19384118218, FirstName = "BERK",LastName = "KARANFİLOĞLU",BirthYear = 1994};
+            Gamer gamer = new Gamer(){IdNumber = 1234516, FirstName = "",LastName = "",BirthYear = 1111};
             GamerManager gamerManager = new GamerManager(new UserValidationManager());
             gamerManager.Add(gamer);
         }
